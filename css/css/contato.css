@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #121212;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #2500ac;
+    width: 500px;
+    -webkit-box-shadow: 15px 10px 77px -8px rgba(0, 0, 0, 0.86);
+    -moz-box-shadow: 15px 10px 77px -8px rgba(0, 0, 0, 0.86);
+    box-shadow: 15px 10px 77px -8px rgba(0, 0, 0, 0.86);
+}
+section h2{
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 16px;
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+form textarea:focus{
+    border-radius: 14px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: solid 2px #fff;
+    color: #fff;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background: #fff;
+    color: #121212;
+    border-radius: 16px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    position: relative;
+    max-width: 150px;
+}
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation  li{
+    list-style: none;
+}
+header .navegation li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 100px;
+}
+.icons li a:hover{
+    background: #e51e2a;
+    transform: translateY(-10px);
+}
+.icons li a img{
+    filter: invert(1);
+    transform: scale(0.5);
+}
+.boxImg{
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+.boxImg img{
+    width: 200px;
+}
+.boxImg .img1{
+   height: 400px;
+   box-shadow: 10px #121212;
+}
+.boxImg .img2{
+height: 450px; 
+}
